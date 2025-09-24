@@ -53,3 +53,104 @@ body {
 .topo--texto:hover {
     color: #898989;
 }
+
+.fundo {
+    height: 560px;
+    background-image: url('../images/background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+
+.menu--flex {
+    flex: 1;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item--menu {
+    font-family: 'airbnb--light';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.last--menu--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu--buttom {
+    background: transparent;
+    color: #222222;
+    font-family: 'airbnb--light';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 15px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.menu--buttom:hover {
+    background: #F7F7F7;
+}
+
+.menu--icon {
+    background: transparent;
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.menu--icon:hover {
+    background: #F7F7F7;
+}
+
+.icon--globe {
+    font-size: 20px;
+}
+
+.buttom--icons {
+    background: white;
+    color: gray;
+    font-family: 'airbnb--light';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.icon--buttom {
+    font-size: 25px;
+
+}
+
+.icon--buttom--menu {
+    font-size: 18px;
+    margin-right: 5px;
+
+}
