@@ -4,8 +4,28 @@
 }
 
 @font-face {
+    font-family: 'airbnb--bold';
+    src: url('../fonts/AirbnbCerealBold.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--book';
+    src: url('../fonts/AirbnbCerealBook.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--extra--bold';
+    src: url('../fonts/AirbnbCerealExtraBold.ttf');
+}
+
+@font-face {
     font-family: 'airbnb--light';
     src: url('../fonts/AirbnbCerealLight.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--medium';
+    src: url('../fonts/AirbnbCerealMedium.ttf');
 }
 
 body {
