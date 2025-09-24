@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'airbnb--black';
+    src: url('../fonts/AirbnbCerealBlack.ttf');
+}
+
+@font-face {
+    font-family: 'airbnb--light';
+    src: url('../fonts/AirbnbCerealLight.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 57px;
+    justify-content: center;
+    background-color: #222222;
+}
+
+.topo--texto {
+    color: #b3b3b3;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'airbnb--light';
+    font-size: 14px;
+}
+
+.topo--texto:hover {
+    color: #898989;
+}
