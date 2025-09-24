@@ -135,7 +135,7 @@ body {
     font-family: 'airbnb--light';
     font-size: 14px;
     font-weight: 600;
-    padding: 8px;
+    padding: 4px 5px;
     border: 0;
     border-radius: 25px;
     cursor: pointer;
@@ -145,12 +145,13 @@ body {
 }
 
 .icon--buttom {
-    font-size: 30px;
+    font-size: 33px;
 
 }
 
 .icon--buttom--menu {
     font-size: 18px;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
 
 }
