@@ -155,3 +155,59 @@ body {
     margin-left: 5px;
 
 }
+
+.buscas {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div--buscar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    background: white;
+    border: 0;
+    border-radius: 45px;
+    width: 63%;
+}
+
+.item--buscar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.item--buscar--1 {
+    flex: 2;
+    margin;
+    display: flex;
+    flex-direction: column;
+}
+
+.item--buscar--4 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.buscar--1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.primeiro--item {
+    font-size: 12px;
+    font-family: 'airbnb--light';
+    font-weight: 600;
+}
+
+.segundo--item {
+    color: gray;
+    font-family: 'airbnb--light';
+    font-weight: 400;
+    font-size: 14px;
+}
